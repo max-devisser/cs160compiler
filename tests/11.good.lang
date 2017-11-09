@@ -1,0 +1,70 @@
+c0 {
+    boolean m0;
+    integer m1;
+    boolean m2;
+    f0(boolean a0, boolean a1, integer a2, boolean a3, integer a4) -> none {
+        boolean l0, l1;
+        boolean l2, l3, l4, l5, l6, l7, l8;
+        l4 = 143 * 165;
+        while l7 {
+            l7 = l5 equals 77;
+            print true;
+            if 61 and true {
+                if false {
+                    l0 = true;
+                    l6 = -102;
+                    l7 = 14 - 186;
+                    } else {
+                l6 = 138;
+                while 182 {
+                    l3 = true;
+                    l5 = 42;
+                    l7 = 208;
+                    }
+                
+                }
+                
+                l6 = true;
+                }
+            
+            while true - 20 {
+                while l3 {
+                    l8 = l6 equals l8;
+                    l7 = 246;
+                    }
+                
+                print true;
+                print 13 or 216;
+                while 65 {
+                    l2 = 182;
+                    l4 = 125;
+                    }
+                
+                }
+            
+            }
+        
+        
+        }
+    f1(boolean a0) -> boolean {
+        integer l0;
+        integer l1, l2, l3, l4, l5, l6, l7, l8, l9;
+        boolean l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20, l21;
+        boolean l22;
+        if l18 {
+            l10 = l1;
+            print 67;
+            l18 = l13;
+            }
+        
+        while 92 {
+            l4 = 222;
+            l3 = 31;
+            l2 = 19 and false;
+            }
+        
+        return false;
+        }
+    }
+    
+c1 {}

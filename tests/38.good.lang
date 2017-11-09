@@ -1,0 +1,20 @@
+c0 {
+    integer m0;
+    boolean m1;
+    }
+c1 extends c0 {
+    f0(boolean a0) -> boolean {
+        c0 l0, l1, l2, l3, l4;
+        c0 l5, l6, l7;
+        c0 l8;
+        return 30 or new c0;
+        }
+    f1(c0 a0) -> integer {
+        c0 l0, l1;
+        integer l2, l3, l4;
+        boolean l5, l6;
+        integer l7, l8, l9, l10, l11, l12, l13 /* # bla -- @ !-! bla -!- ^ bla ! **/;
+        l10 = false;
+        return not l5;
+        }
+    }

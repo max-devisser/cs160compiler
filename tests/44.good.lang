@@ -1,0 +1,49 @@
+c0 {
+    f0(integer a0, integer a1, boolean a2) -> boolean {
+        while 197 and 253 {
+            print true;
+            if true {
+                print false;
+                print false;
+                print 14;
+                } else {
+            print false;
+            print 143 - 55;
+            }
+            
+            }
+        
+        return 217;
+        }
+    f1(integer a0, boolean a1, integer a2) -> none {
+        
+        }
+    f2(boolean a0) -> integer {
+        boolean l0, l1, l2, l3;
+        boolean l4, l5, l6, l7, l8, l9, l10, l11, l12;
+        l12 = -26;
+        return (145);
+        }
+    }
+c1 {
+    integer m0;
+    integer m1;
+    c0 m2;
+    f0(boolean a0, boolean a1) -> boolean {
+        print new c0;
+        print 209 + true;
+        return 69;
+        }
+    f1() -> c0 {
+        print -true;
+        return true;
+        }
+    }
+c2 {
+    integer m0;
+    c1 m1;
+    f0(c0 a0, boolean a1, c1 a2) -> c1 {
+        integer l0;
+        return not new c1 ( l0, false );
+        }
+    }

@@ -1,0 +1,32 @@
+c0 {
+    boolean m0;
+    integer m1;
+    boolean m2;
+    boolean m3;
+    boolean m4;
+    boolean m5;
+    integer m6;
+    integer m7;
+    f0(integer a0, boolean a1, integer a2) -> integer {
+        boolean l0, l1, l2, l3, l4, l5, l6, l7, l8, l9;
+        l5 = 14;
+        l9 = 210;
+        if 231 {
+            l2 = 65;
+            l9 = l3;
+            while true {
+                l0 = false;
+                l2 = false;
+                }
+            
+            do {
+              if (l0 equals 45) {
+                l0 = l1 + 3;
+
+              }
+            } while (true);
+            }
+        
+        return 218;
+        }
+    }

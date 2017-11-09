@@ -1,0 +1,20 @@
+c0 {
+    f0(boolean a0) -> integer {
+        integer l0, l1, l2, l3, l4;
+        if 255 {
+            l4 = 221;
+            l4 = 220;
+            }
+        
+        if false {
+            while 55 {
+                print 150;
+                }
+            
+            l2 = l0 or 40;
+            l0 = -191;
+            }
+        
+        return 119;
+        }
+    }

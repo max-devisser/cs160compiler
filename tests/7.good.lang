@@ -1,0 +1,23 @@
+c0 {
+    boolean m0;
+    f0() -> integer {
+        integer l0;
+        integer l1, l2, l3, l4, l5;
+        l5 = 24 + false;
+        return 74;
+        }
+    f1() -> boolean {
+        integer l0;
+        l0 = false;
+        return -47;
+        }
+    }
+c1 {
+    f0(integer a0, integer a1, c0 a2, boolean a3) -> none {
+        integer l0, l1, l2, /* # bla -- @ !-! bla -!- ^ bla ! **/ l3, l4, l5, l6, l7, l8;
+        integer l9, l10;
+        c0 l11;
+        print 179;
+        
+        }
+    }

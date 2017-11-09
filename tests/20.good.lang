@@ -1,0 +1,54 @@
+c0 {
+    f0(boolean a0, boolean a1) -> boolean {
+        integer l0, l1;
+        if 230 {
+            l0 = 139;
+            while 174 equals 75 {
+                l1 = 153 equals l0;
+                l1 = true;
+                }
+            
+            l0 = 194;
+            } else {
+        if 32 and 166 {
+            l1 = false;
+            print 149 and l1;
+            } else {
+        l0 = false;
+        l1 = true;
+        l0 = 181 > l1;
+        }
+        
+        while 240 > 88 {
+            l0 = true;
+            }
+        
+        if 47 {
+            l1 = l0 equals true;
+            l0 = -190;
+            l0 = 238;
+            }
+        
+        }
+        
+        return 245 equals false;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    f0(c0 a0) -> c0 {
+        print 201 and 196;
+        return 175;
+        }
+    f1(c0 a0, c0 a1) -> boolean {
+        c0 l0;
+        c0 l1, l2, l3;
+        c0 l4, l5, l6, l7;
+        c0 l8;
+        boolean l9;
+        l9 = false;
+        l9 = true / new c0 ( new c0 );
+        l9 = new c0;
+        return new c0 ( new c0, (true) );
+        }
+    }

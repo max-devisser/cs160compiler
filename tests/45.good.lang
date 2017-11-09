@@ -1,0 +1,227 @@
+c0 {
+    integer m0;
+    f0(boolean a0, boolean a1, boolean a2, integer a3) -> integer {
+        integer l0, l1, l2;
+        boolean l3;
+        integer l4, l5;
+        integer l6, l7;
+        if l2 {
+            while false > 213 {
+                if 63 {
+                    print l5;
+                    }
+                
+                print 45;
+                }
+            
+            l3 = 249;
+            } else {
+        l7 = 211;
+        l7 = 186;
+        while 153 {
+            l6 = 152;
+            l0 = not 150;
+            if false {
+                l5 = 144 >= 13;
+                l5 = true;
+                l4 = 58;
+                l0 = false;
+                } else {
+            while 24 {
+                l3 = 183;
+                while 242 > 198 {
+                    if 60 {
+                        l4 = 255;
+                        print 238;
+                        l1 = 230 equals l1;
+                        } else {
+                    l5 = 12 * 81;
+                    l0 = 173;
+                    }
+                    
+                    l3 = 138;
+                    l5 = 204;
+                    }
+                
+                }
+            
+            if (248) {
+                if 65 {
+                    l3 = 44;
+                    print 214;
+                    } else {
+                if 190 {
+                    l4 = 12;
+                    l0 = 190 >= true;
+                    print 44 / l6;
+                    }
+                
+                l1 = false;
+                }
+                
+                print 66 - 30;
+                }
+            
+            if l7 {
+                l1 = 147 - 30;
+                l0 = l3;
+                }
+            
+            l6 = 142;
+            while 205 {
+                l7 = 216;
+                l7 = 27 equals 230;
+                l1 = true equals 25;
+                }
+            
+            }
+            
+            l5 = 82;
+            }
+        
+        l0 = 19 and 179;
+        }
+        
+        return false - 134;
+        }
+    }
+c1 {
+    f0(boolean a0, integer a1) -> c0 {
+        while false {
+            print false - 173;
+            if new c0 ( new c0 ( (new c0), 206 >= false, false, new c0 >= true ) , 139, 91 and 198, 165 )  {
+                print new c0;
+                print false;
+                while 68 {
+                    print 77;
+                    print 42 or 199;
+                    print new c0;
+                    }
+                
+                }
+            
+            }
+        
+        return false;
+        }
+    }
+c2 extends c0 {
+    boolean m0;
+    c1 m1;
+    c1 m2;
+    c1 m3;
+    integer m4;
+    c0 m5;
+    boolean m6;
+    boolean m7;
+    f0(boolean a0, c1 a1) -> none {
+        integer l0;
+        boolean l1, l2, l3;
+        while new c1 {
+            l1 = l3;
+            l2 = new c0;
+            }
+        
+        l1 = -l1;
+        
+        }
+    f1() -> c1 {
+        c1 l0;
+        c0 l1, l2, l3, l4, l5, l6, l7, l8, l9, l10;
+        c0 l11, l12, l13, l14, l15, l16, l17, l18, l19, l20, l21, l22, l23, l24, l25;
+        c1 l26, l27, l28, l29, l30, l31, l32, l33;
+        c1 l34, l35;
+        l10.m0 = 159;
+        return false;
+        }
+    }
+c3 {
+    f0(c2 a0, integer a1, c2 a2, c1 a3, integer a4, integer a5, boolean a6) -> c2 {
+        return new c2;
+        }
+    f1(c0 a0, c1 a1, c2 a2) -> c2 {
+        c2 l0;
+        c1 l1, l2;
+        while (200) {
+            while true {
+                l0.m3 = true + false;
+                if l0.m0 {
+                    l0.m4 = new c1 ( new c1 >= 54 );
+                    while new c0 {
+                        l0.m2 = 6;
+                        }
+                    
+                    while new c0 or new c2 {
+                        l0.m2 = new c1;
+                        if new c2 {
+                            l0.m1 = 132;
+                            l0.m1 = 26 >= false;
+                            } else {
+                        l0.m5 = false;
+                        l0.m0 = 53;
+                        if false {
+                            l0.m6 = 192;
+                            l0.m6 = new c0 or 163;
+                            l0.m7 = 214 and 183;
+                            }
+                        
+                        l0.m0 = 161;
+                        }
+                        
+                        }
+                    
+                    print 172 / true;
+                    } else {
+                l0.m0 = new c2;
+                if false {
+                    if 33 {
+                        l0.m4 = true;
+                        print 203;
+                        l0.m0 = 209;
+                        } else {
+                    l0.m2 = 28;
+                    l0.m2 = 182;
+                    if new c0 ( 244, 138 )  {
+                        l0.m7 = true;
+                        l0.m0 = 194;
+                        } else {
+                    if (96) {
+                        l0.m4 = l0.m7;
+                        } else {
+                    l0.m6 = new c0;
+                    l0.m5 = new c1 ( 161 * 143, new c2 );
+                    l0.m0 = true;
+                    }
+                    
+                    l0.m2 = false;
+                    l0.m2 = (false);
+                    }
+                    
+                    l0.m5 = new c0 ( new c2 );
+                    }
+                    
+                    print 103;
+                    }
+                
+                }
+                
+                }
+            
+            if new c2 {
+                l0.m3 = new c1;
+                l0.m3 = new c1 ( new c2 )  and new c1 ( false and new c2 );
+                l0.m2 = true;
+                l0.m3 = new c2 ( 138 + true, new c1 ( false - false / 192, not false )  );
+                } else {
+            l0.m0 = -false;
+            l0.m0 = 106 > new c0;
+            l0.m0 = 8 + true;
+            }
+            
+            l0.m6 = 126;
+            l0.m7 = true;
+            }
+        
+        return false;
+        }
+    }

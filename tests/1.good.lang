@@ -1,0 +1,34 @@
+c0 {
+    f0() -> integer {
+        print 146;
+        print 73;
+        return false;
+        }
+    f1() -> none {
+        print 239 >= false;
+        
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    c0 m2;
+    f0() -> integer {
+        print 41;
+        return 18;
+        }
+    f1(c0 a0) -> c0 {
+        print new c0 ( new c0 ( true ) , not new c0, true );
+        while 232 > new c0 and new c0 ( 211 )  {
+            print new c0 ( false, new c0 );
+            while 22 {
+                print new c0 / 10;
+                print new c0;
+                }
+            
+            }
+        
+        print true;
+        return false;
+        }
+    }

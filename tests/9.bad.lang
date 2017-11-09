@@ -1,0 +1,66 @@
+c0 {
+    f0() -> integer {
+        integer l0, l1;
+        integer l2;
+        integer l3, l4, l5, l6, l7, l8;
+        integer l9, l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20, l21, l22, l23;
+        integer l24;
+        boolean l25, l26;
+        boolean l27, l28;
+        integer l29, l30, l31, l32, l33;
+        integer l34, l35, l36, l37, l38, l39, l40, l41;
+        while l38 {
+            l13 = false;
+            if 175 {
+                l3 = 117;
+                while 247 {
+                    while false {
+                        l39 = 128;
+                        }
+                    
+                    while 46 {
+                        l16 = 85;
+                        }
+                    
+                    l14 = false;
+                    }
+                
+                }
+            
+            }
+        
+        while 99 {
+            l21 = 26 + 0;
+            }
+        
+        return (false);
+        }
+    }
+c1 extends c0 {
+    f0(integer a0) -> boolean {
+        integer l0, /* bla bla bla */- l1;
+        while 122 {
+            l0 = new c0 ( new c0, l1 ) 
+            l1 = l1;
+            l1 = new c0 ( not l0 equals true, true + 45, true, (217), -false, new c0 ( new c0, true, l1, true )  ) 
+            }
+        
+        return new c0 ( l1, 40 / false ) 
+        }
+    }
+c2 extends c1 {
+    c1 m0;
+    f0(c0 a0) -> none {
+        while 153 {
+            print new c0;
+            while false {
+                print 103;
+                print 39;
+                print 128;
+                }
+            
+            }
+        
+        
+        }
+    }

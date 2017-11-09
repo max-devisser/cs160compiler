@@ -1,0 +1,70 @@
+c0 {
+    integer m0;
+    integer m1;
+    integer m2;
+    f0(boolean a0) -> boolean {
+        integer l0, l1, l2, l3, l4, l5, l6, l7, l8;
+        l4 = l5 + l5;
+        if not 242 {
+            l6 = false;
+            l4 = -false;
+            } else {
+        l1 = true;
+        l1 = 37;
+        }
+        
+        return 73;
+        }
+    }
+c1 {
+    c0 m0;
+    boolean m1;
+    f0(c0 a0) -> boolean {
+        c0 l0, l1;
+        l0.m1 = true;
+        return new c0 ( false * 62 ) ;
+        }
+    }
+c2 {
+    c0 m0;
+    c0 m1;
+    integer m2;
+    f0() -> none {
+        c0 l0;
+        c0 l1, l2, l3, l4, l5, l6;
+        c1 l7;
+        while true {
+            while 10 {
+                if not false {
+                    l6.m2 = 192;
+                    if l1.m1 {
+                        print 182 * false;
+                        l7.m0 = new c0 > true;
+                        } else {
+                    l1.m2 = 23;
+                    l5.m1 = new c1;
+                    if (77) {
+                        l2.m0 = new c0 ( 220, 123 * l7.m1 ) ;
+                        print true;
+                        } else {
+                    print new c1 equals 248;
+                    while -true {
+                        l1.m2 = l2.m0;
+                        l6.m1 = (l6.m2);
+                        }
+                    
+                    }
+                    
+                    }
+                    
+                    }
+                
+                l3.m1 = l3.m1 * new c1 ( 44, true equals true ) ;
+                }
+            
+            l2.m1 = new c1 ( new c1 ( 90 )  / new c0 ( 127 ) , new c1, (242), -79 )  equals new c1 ( true, 120 ) ;
+            }
+        
+        
+        }
+    }

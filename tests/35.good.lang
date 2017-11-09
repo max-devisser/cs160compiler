@@ -1,0 +1,106 @@
+c0 {
+    f0(integer a0) -> boolean {
+        print true;
+        return 173 + 253;
+        }
+    f1(boolean a0, boolean a1, integer a2, boolean a3) -> integer {
+        integer l0, l1, l2, l3;
+        boolean l4, l5, l6, l7, l8;
+        integer l9, l10, l11, l12;
+        integer l13;
+        integer l14, l15;
+        while true * 138 {
+            l13 = (148);
+            while l15 {
+                if 180 {
+                    l5 = 138;
+                    l15 = 6 + 33;
+                    } else {
+                l1 = -false;
+                l12 = 44 or 185;
+                }
+                
+                print 206;
+                while 218 {
+                    l4 = not false;
+                    l11 = 241;
+                    }
+                
+                }
+            
+            l10 = 112 >= l14;
+            }
+        
+        l10 = 126;
+        while 238 or false {
+            l2 = 72;
+            while l7 - false {
+                l13 = true / 174;
+                if not 71 {
+                    while 132 {
+                        l10 = false equals 193;
+                        l12 = 72 or l8;
+                        l4 = 10;
+                        l9 = l6;
+                        }
+                    
+                    while 52 or 60 {
+                        while 41 {
+                            l15 = false;
+                            print true + false;
+                            }
+                        
+                        if (123) {
+                            l12 = true equals false;
+                            while 208 >= true {
+                                l13 = 24;
+                                l15 = false or 206;
+                                l11 = 106;
+                                l1 = 15;
+                                }
+                            
+                            }
+                        
+                        l11 = 253;
+                        }
+                    
+                    } else {
+                l0 = 140;
+                if 152 {
+                    while 67 {
+                        l14 = 32;
+                        l12 = 123;
+                        }
+                    
+                    print l5;
+                    } else {
+                l11 = (false);
+                l6 = true;
+                }
+                
+                l11 = 129;
+                }
+                
+                }
+            
+            l2 = 183;
+            }
+        
+        return false >= 121;
+        }
+    }
+c1 {
+    integer m0;
+    integer m1;
+    boolean m2;
+    f0(c0 a0, c0 a1) -> boolean {
+        c0 l0, l1;
+        integer l2;
+        l2 = 17;
+        return false / new c0;
+        }
+    f1() -> c0 {
+        print 243;
+        return 43 + false;
+        }
+    }

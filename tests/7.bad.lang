@@ -1,0 +1,28 @@
+c0 {
+    boolean m0;
+    boolean m1;
+    boolean m2;
+    boolean m3;
+    boolean m4;
+    boolean m5;
+    boolean m6;
+    f0(integer a0, boolean a1) -> boolean {
+        integer l0, l1;
+        boolean l2, l3, l4, l5, l6;
+        boolean l7, l8, l9, l10, l11, l12, l13, l14, l15, l16, l17, l18;
+        integer l19, l20, l21;
+        l4 = false + false;
+        while 171 { }
+        
+        return true * 117;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    f0(boolean a0) -> integer {
+        print 96;
+        print true or 181;
+        return true;
+        }
+    }

@@ -1,0 +1,8 @@
+c0 {
+    integer m0;
+    f0(boolean a0, integer a1) -> integer {
+        boolean l0, l1, l2, l3, l4, l5;
+        l5 = false and false;
+        return 172;
+        }
+    }

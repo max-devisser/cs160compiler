@@ -1,0 +1,166 @@
+/* # bla -- @ !-! bla -!- ^ bla ! **/c0 {
+    boolean m0;
+    boolean m1;
+    integer m2;
+    f0(integer a0, integer a1, integer a2) -> none {
+        if 139 > 56 {
+            print 198;
+            print true;
+            } else {
+        print not 9;
+        while 255 {
+            if true {
+                print 65;
+                print -true;
+                }
+            
+            print 80;
+            while 156 {
+                print 79;
+                while false / 232 {
+                    print not true;
+                    print true;
+                    if 23 {
+                        print 231;
+                        while 209 {
+                            print 206;
+                            print (124);
+                            if 254 equals 91 {
+                                print 157;
+                                print not 20;
+                                print 103 >= true;
+                                }
+                            
+                            }
+                        
+                        print 124;
+                        }
+                    
+                    }
+                
+                }
+            
+            while 196 {
+                print true;
+                print 210;
+                }
+            
+            while true {
+                print not 218;
+                print 217;
+                print 10;
+                print 247 or 172;
+                }
+            
+            }
+        
+        while 117 {
+            while not 65 {
+                print 35 or 164;
+                print 237;
+                }
+            
+            /* # bla -- @ !-! bla -!- ^ bla ! **/print 34;
+            }
+        
+        }
+        
+        print not 235;
+        
+        }
+    f1() -> integer {
+        boolean l0, l1, l2, l3, l4, l5, l6, l7, l8;
+        integer l9, l10, l11;
+        integer l12, l13, l14, l15;
+        integer l16, l17, l18, l19;
+        boolean l20, l21, l22, l23, l24, l25, l26;
+        print (false);
+        return 195;
+        }
+    f2(integer a0) -> integer {
+        print 157 equals false;
+        if false - 234 {
+            print 92 + 62;
+            if 101 * true {
+                print 0;
+                print 8 / 254;
+                print 108;
+                } else {
+            if 166 {
+                print 42 >= 63 / 179;
+                print true * true;
+                while 198 {
+                    while false {
+                        print 105;
+                        while 16 {
+                            if 71 - 76 {
+                                print 81;
+                                print false * 155;
+                                print true;
+                                } else {
+                            print true;
+                            print true > 182;
+                            }
+                            
+                            }
+                        
+                        print not 47;
+                        }
+                    
+                    while 237 {
+                        print true;
+                        print 4 >= true;
+                        }
+                    
+                    if true {
+                        print 31;
+                        while 105 / 8 and false {
+                            print false;
+                            print 154;
+                            print 5;
+                            }
+                        
+                        print 244 * false;
+                        }
+                    
+                    }
+                
+                }
+            
+            while 4 {
+                print 44;
+                print 180;
+                print true or true;
+                }
+            
+            print 176;
+            }
+            
+            }
+        
+        return 105;
+        }
+    }
+c1 extends c0 {
+    f0(integer a0) -> none {
+        c0 l0, l1;
+        
+        }
+    f1(integer a0, c0 a1) -> none {
+        integer l0;
+        c0 l1;
+        boolean l2;
+        boolean l3, l4, l5, l6;
+        
+        }
+    }
+c2 {
+    f0(integer a0, boolean a1, boolean a2) -> c1 {
+        if 22 {
+            print 138;
+            }
+        
+        print -false;
+        return new c1;
+        }
+    }

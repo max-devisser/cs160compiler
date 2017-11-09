@@ -1,0 +1,94 @@
+c0 {
+    f0() -> boolean {
+        integer l0;
+        integer l1;
+        boolean l2, l3, l4;
+        boolean l5, l6, l7, l8, l9, l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20, l21;
+        boolean l22, l23, l24, l25, l26, l27, l28, l29, l30, l31;
+        boolean l32, l33;
+        integer l34, l35, l36, l37, l38, l39, l40, l41, l42, l43, l44;
+        print 160 / l29;
+        while false * 5 {
+            l36 = 123;
+            if 184 {
+                l27 = false;
+                print not true;
+                } else {
+            l12 = true;
+            l39 = 81;
+            while 66 {
+                l38 = true;
+                }
+				/* bla bla bla */-            
+            }
+            
+            l28 = false;
+            }
+        
+        return false;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    f0(c0 a0, c0 a1, c0 a2, c0 a3, c0 a4, boolean a5, c0 a6) -> c0 {
+        c0 l0, l1;
+        integer l2, l3;
+        l2 = new c0;
+        if true {
+            if 164 equals false {
+                l2 = 233;
+                l3 = l2;
+                l2 = not new c0 ( new c0 ) 
+                }
+            
+            if -new c0 ( new c0 ( new c0, l3 ) , new c0 )  {
+                l2 = true * true;
+                l2 = l3;
+                }
+            
+            l2 = true;
+            l3 = true;
+            if false {
+                if 143 {
+                    if 121 {
+                        l2 = false >= false;
+                        if false {
+                            print new c0;
+                            print true;
+                            } else {
+                        l2 = false;
+                        l2 = (new c0 ( (new c0) ) );
+                        }
+                        
+                        }
+                    
+                    l2 = new c0;
+                    l3 = 154;
+                    }
+                
+                l2 = 78;
+                print 222;
+                } else {
+            l2 = true;
+            l2 = true;
+            }
+            
+            } else {
+        l2 = false + 190;
+        l2 = false / true;
+        }
+        
+        if 182 {
+            l3 = not 212;
+            print 145;
+            l3 = true or false;
+            l2 = true or true;
+            } else {
+        l2 = new c0 ( new c0, l2 ) 
+        l3 = 214 equals 99;
+        }
+        
+        return new c0 ( l2 and l3, new c0, false, true )  + 180;
+        }
+    }

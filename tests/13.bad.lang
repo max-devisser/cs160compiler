@@ -1,0 +1,88 @@
+c0 {
+    boolean m0;
+    boolean m1;
+    integer m2;
+    boolean m3;
+    boolean m4;
+    boolean m5;
+    integer m6;
+    integer m7;
+    boolean m8;
+    f0(boolean a0, boolean a1, integer a2) -> integer) {
+        boolean l0, l1, l2, l3, l4, l5, l6, l7, l8, l9;
+        integer l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20, l21, l22, l23;
+        boolean l24, l25;
+        boolean l26;
+        boolean l27, l28, l29, l30, l31, l32, l33;
+        boolean l34!!!!!!!!!!!;
+        integer l35, l36, l37, l38;
+        integer l39, l40, l41, l42, l43, l44, l45, l46, l47;
+        integer l48;
+        integer l49;
+        l1 = true;
+        return 104;
+        }
+    f1() -> boolean {
+        boolean l0, l1, l2, l3, l4;
+        if true {
+            l1 = l2;
+            l3 = false;
+            l0 = 226 / 249;
+            } else {
+        if 23 - 30 {
+            print false;
+            if true {
+                while true {
+                    l4 = 47 > false;
+                    l2 = l0;
+                    }
+                
+                if 59 {
+                    l3 = 231;
+                    l2 = l0 - false;
+                    } else {
+                l1 = l4 and true;
+                l2 = 56;
+                l1 = true;
+                print true equals 35;
+                l3 = 142;
+                }
+                
+                }
+            
+            print false;
+            l4 = 53;
+            } else {
+        while 38 {
+            l2 = true - 85;
+            l0 = 102;
+            }
+        
+        while 89 * 111 * 215 {
+            l2 = 142 or true;
+            l4 = false;
+            l0 = 159;
+            }
+        
+        l4 = -true;
+        print true * 110;
+        }
+        
+        l2 = l1;
+        l1 = 42 equals 153;
+        }
+        
+        return l3;
+        }
+    f2() -> none {
+        boolean l0, l1, l2, l3;
+        integer l4;
+        integer l5, l6, l7, l8, l9;
+        if 150 {
+            l5 = 168;
+            l3 = l5;
+            }
+        
+        
+        }
+    }

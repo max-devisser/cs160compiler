@@ -1,0 +1,17 @@
+c0 {
+    f0(boolean a0, integer a1) -> integer {
+        boolean l0, l1, l2, l3, l4;
+        integer l5, l6;
+        boolean l7, l8, l9, l10, l11;
+        l8 = 82;
+        return true;
+        }
+    f1/* # bla -- @ !-! bla -!- ^ bla ! **/(integer a0, boolean a1, boolean a2) -> integer {
+        boolean l0, l1, l2, l3, l4, l5;
+        integer l6, l7;
+        integer l8, l9;
+        boolean l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20;
+        boolean l21, l22 /*/ test **/;
+        return false;
+        }
+    }

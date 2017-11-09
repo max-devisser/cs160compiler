@@ -1,0 +1,16 @@
+c0 {
+    /* # bla -- @ !-! bla -!- ^ bla ! **/boolean m0;
+    integer m1;
+    integer m2;
+    integer m3;
+    boolean m4;
+    boolean m5;
+    boolean m6;
+    integer m7/* # bla -- @ !-! bla -!- ^ bla ! **/;
+    f0(integer a0, boolean a1) -> none {
+        integer l0, l1, l2, l3, l4;
+        l1 = 244;
+        l3 = l1;
+        
+        }
+    }

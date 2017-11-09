@@ -1,0 +1,15 @@
+c0 /*/ # bla -- @ !-! bla ^ bla ! **/{
+    boolean m0;
+    boolean m1;
+    boolean m2;
+    f0(integer a0) -> boolean {
+        boolean l0, l1, l2, l3, l4;
+        l4 = 94;
+        l1 = 193;
+        return 4;
+        }
+    }
+c1 {
+    c0 m0;
+    boolean m1;
+    }

@@ -1,0 +1,91 @@
+c0 {
+    boolean m0;
+    integer m1;
+    f0(boolean a0, boolean a1, boolean a2, integer a3) -> integer {
+        print 90;
+        return 93;
+        }
+    }
+c1 {
+    integer m0;
+    f0(integer a0, c0 a1) -> none {
+        
+        }
+    }
+c2 extends c1 {
+    boolean m0;
+    c1 m1;
+    c0 m2;
+    f0(c1 a0) -> boolean {
+        c0 l0, l1;
+        c1 l2, l3, l4, l5, l6, l7, l8;
+        while 78 {
+            l8.m0 = true;
+            while true {
+                l5.m0 = new c0 ( false );
+                while new c0 ( new c0 ( false )  )  {
+                    l0.m1 = 121 > 222;
+                    l6.m0 = l0.m0 * 237;
+                    }
+                
+                l6.m0 = new c0;
+                }
+            
+            while new c1 > new c0 {
+                if 171 {
+                    while 104 {
+                        if 81 {
+                            l0.m0 = false >= 45;
+                            l7.m0 = new c1 ( false );
+                            l1.m1 = 140;
+                            if 114 >= 80 {
+                                l8.m0 = l0.m1;
+                                l5.m0 = 157;
+                                }
+                            
+                            } else {
+                        l4.m0 = 70 or new c0;
+                        l7.m0 = new c1 ( 96 >= 152, false, new c0 ( 39 )  );
+                        }
+                        
+                        l5.m0 = 227;
+                        }
+                    
+                    l2.m0 = 226;
+                    l2.m0 = false;
+                    } else {
+                if 252 {
+                    l5.m0 = new c0;
+                    l8.m0 = new c1 / true;
+                    while (-new c0) {
+                        print false;
+                        l8.m0 = new c1;
+                        }
+                    
+                    l5.m0 = new c1 ( 250 );
+                    } else {
+                l7.m0 = (154);
+                if new c0 {
+                    l6.m0 = l1.m0;
+                    l8.m0 = new c0;
+                    l4.m0 = true;
+                    }
+                
+                }
+                
+                print new c1 + l0.m0;
+                }
+                
+                l2.m0 = true;
+                }
+            
+            if not false {
+                print 86;
+                l0.m0 = false;
+                }
+            
+            }
+        
+        return 89 equals new c0;
+        }
+    }

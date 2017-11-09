@@ -1,0 +1,33 @@
+c0 {
+    boolean m0;
+    boolean m1;
+    boolean m2;
+    f0() -> boolean {
+        print true;
+        print true;
+        return 69;
+        }
+    f1(integer a0, integer a1) -> none {
+        boolean l0, l1, l2, l3, l4, l5;
+        l3 = 127;
+        if true {
+            l1 = 53 * 151;
+            }
+        
+        
+        }
+    
+    f2() -> none {/* # bla -- @ !-! bla -!- ^ bla ! **/}
+    }    
+
+c1 extends c0 {
+    c0 m0;
+    f0(boolean a0) -> c0 {
+        print new c0 ( new c0 ( new c0 )  ) ;
+        return 221;
+        }
+    }
+c2 extends c1 {
+    integer m0;
+    c0 m1;
+    }

@@ -1,0 +1,22 @@
+c0 {
+    f0() -> none {
+        boolean l0, l1;
+        if 123 + 103 {
+            l1 = l0;
+            if not 147 {
+                l0 = l0;
+                l1 = 221;
+                }
+            
+            l0 = 36;
+            while 69 or true {
+                l1 = 161;
+                l0 = false;
+                l0 = 10;
+                }
+            
+            }
+        
+        
+        }
+    }

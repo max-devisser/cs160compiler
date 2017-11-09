@@ -1,0 +1,7 @@
+c0 {
+    boolean m0
+    boolean and
+    f0(integer a0, integer a1) -> integer {
+        return 213
+        }
+    }

@@ -1,0 +1,78 @@
+c0 {
+    integer m0;
+    boolean m1;
+    boolean m2;
+    integer m3;
+    f0(integer a0) -> integer {
+        integer l0;
+        integer l1, l2;
+        boolean l3;
+        l2 = true;
+        return -158;
+        }
+    f1() -> integer {
+        integer l0, l1;
+        boolean l2, l3;
+        boolean l4, l5, l6, l7, l8;
+        boolean l9;
+        boolean l10, l11, l12, l13, l14;
+        integer l15;
+        boolean l16;
+        return (false);
+        }
+    }
+c1 {
+    c0 m0;
+    integer m1;
+    c0 m2;
+    boolean m3;
+    boolean m4;
+    integer m5;
+    f0(boolean a0, integer a1) -> c0 {
+        c0 l0, l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12;
+        c0 l13;
+        integer l14;
+        l14 = l7.m2;
+        return false;
+        }
+    }
+c2 {
+    f0(c1 a0) -> integer {
+        c1 l0, l1, l2, l3, l4, l5, l6;
+        integer l7, l8, l9, l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20;
+        print new c1 ( 6 );
+        if true {
+            l12 = new c1 ( l6.m2, 219 )  > l11;
+            print new c1 ( true );
+            l16 = new c0 ( 124 );
+            l0.m0 = 30 + new c1 ( 251, true );
+            l19 = (12);
+            } else {
+        l16 = l11;
+        print l7;
+        }
+        
+        l1.m3 = true;
+        return new c1 ( 20 )  equals new c1;
+        }
+    }
+c3 {
+    f0() -> boolean {
+        c1 l0, l1, l2, l3, l4, l5;
+        c1 l6, l7, l8, l9, l10, l11;
+        l1.m2 = true;
+        print true;
+        return not new c1 ( 191, l5.m4 );
+        }
+    f1(integer a0) -> boolean {
+        c0 l0, l1, l2, l3, l4, l5;
+        c1 l6;
+        integer l7, l8, l9;
+        c0 l10, l11, l12;
+        c1 l13, l14, l15, l16, l17;
+        c0 l18;
+        l6.m2 = true;
+        l2.m1 = l1.m1;
+        return true;
+        }
+    }

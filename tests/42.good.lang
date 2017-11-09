@@ -1,0 +1,101 @@
+c0 {
+    integer m0;
+    boolean m1;
+    f0(boolean a0) -> boolean {
+        print 43;
+        if 239 {
+            print 135;
+            print 177;
+            }
+        
+        return 196;
+        }
+    f1(boolean a0, integer a1, boolean a2) -> boolean {
+        boolean l0, l1, l2, l3, l4, l5, l6, l7, l8;
+        print 233 / 96;
+        l5 = true;
+        l0 = 100;
+        if true {
+            l0 = 249;
+            l7 = l1 / 217;
+            } else {
+        if false {
+            if false {
+                l6 = true;
+                }
+            
+            if l3 {
+                l3 = false;
+                print 84 >= 132;
+                l8 = 74 equals true;
+                l2 = l7;
+                }
+            
+            }
+        
+        }
+        
+        return 145 / false;
+        }
+    }
+c1 extends c0 {
+    integer m0;
+    integer m1;
+    f0(integer a0) -> integer {
+        boolean l0, l1, l2, l3;
+        c0 l4, l5;
+        l2 = l5.m1 >= 69;
+        return true;
+        }
+    }
+c2 extends c1 {
+    c1 m0;
+    f0(c0 a0, c0 a1, c1 a2, integer a3) -> integer {
+        c0 l0, l1;
+        l1.m0 = new c0 ( false + l1.m0 );
+        l1.m0 = true;
+        l1.m0 = l0.m1 or false;
+        return l1.m1 + l1.m0;
+        }
+    f1(integer a0, c0 a1) -> boolean {
+        c1 l0;
+        c0 l1, l2, l3, l4, l5, l6, l7, l8, l9;
+        l8.m1 = new c1;
+        l4.m0 = false;
+        while 61 {
+            l5.m0 = 169;
+            l3.m1 = new c1 ( true );
+            l8.m0 = new c1 ( 229 )  + true;
+            }
+        
+        return (135);
+        }
+    f2(c1 a0, boolean a1, c0 a2, c1 a3, c0 a4, c0 a5, boolean a6, c1 a7) -> integer {
+        print 45;
+        print not new c0 ( -new c0 ( new c1 ( (189 - 151), 227 )  )  );
+        return 103;
+        }
+    }
+c3 {/* # bla -- @ !-! bla -!- ^ bla ! **/
+    integer m0;
+    f0() -> c0 {
+        boolean l0;
+        c0 l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, l13;
+        boolean l14, l15;
+        print false * 136;
+        while 53 {
+            while new c2 ( 67 * l2.m1 )  {
+                while new c0 {
+                    l0 = new c0;
+                    }
+                
+                l10.m0 = false - new c2 ( true and l9.m1, l0, new c0 ( not l9.m1 )  );
+                l1.m0 = 130;
+                }
+            
+            }
+        
+        l8.m0 = true or 225;
+        return l1.m0;
+        }
+    }

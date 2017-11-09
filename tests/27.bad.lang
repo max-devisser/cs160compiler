@@ -1,0 +1,36 @@
+c0 {
+    boolean m0
+    integer m1
+    integer m2
+    f0(integer a0, integer a1, boolean a2, integer a3, integer a4) -> boolean {
+        boolean l0
+        print 30 --!
+        print not 22
+        return (false)
+        }
+    f1() -> none {
+        boolean l0, l1, l2, l3, l4, l5 l6
+        boolean l7
+        integer l8
+        
+        }
+    }
+c1 extends c0 {
+    integer m0
+    c0 m1
+    integer m2
+    f0(c0 a0, integer a1) -> integer {
+        c0 l0, l1, l2, l3, l4, l5, l6
+        print l5.m1 / true
+        while 21 - l6.m0 {
+            l5.m2 = new c0 ( not new c0, new c0 ( false, false ) , false / new c0 )  equals new c0 ( 121 ) 
+            l4.m1 = l3.m1
+            l6.m0 = 41
+            l2.m1 = not new c0
+            l4.m2 = new c0 ( new c0 ) 
+            }
+        
+        l6.m0 = 80 / true
+        return false
+        }
+    }

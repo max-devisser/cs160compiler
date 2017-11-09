@@ -1,0 +1,13 @@
+c0 {
+    boolean m0;
+    f0(integer a0, integer a1) -> boolean {
+        boolean l0, l1, l2, l3;
+        integer l4;
+        boolean l5, l6, l7;
+        l7 = 176 + 176;
+        return false;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    }

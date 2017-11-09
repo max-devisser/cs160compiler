@@ -1,0 +1,81 @@
+c0 {
+    integer m0;
+    integer m1;
+    boolean m2;
+    boolean m3;
+    f0(integer a0) -> none {
+        boolean l0, l1, l2, l3;
+        while true / 166 {
+            l2 = true;
+            while false {
+                l1 = 154;
+                print 136 >= l1;
+                print 164;
+                }
+            
+            if 8 {
+                if 29 {
+                    l3 = 103 + false;
+                    if 1 {
+                        l1 = 172;
+                        l3 = l0;
+                        l3 = l2 or l0;
+                        l2 = false;
+                        }
+                    
+                    do {
+                        l0 = l1 + 3;
+                        print l2;
+                    } while (true);
+
+                    }
+                
+                if l3 / 209 {
+                    l1 = 72;
+                    }
+                
+                l2 = 83;
+                }
+            
+            l0 = 133;
+            }/* # bla -- @ !-! bla -!- ^ bla ! **/
+        
+        while /* # bla -- @ !-! bla -!- ^ bla ! **/false {
+            l3 /* # bla -- @ !-! bla -!- ^ bla ! **/= 203;
+            if 31 {
+                l1 = false;
+                l3 = 204 >= l2;
+                print (false);
+                }
+            
+            l3 = 55;
+            }
+        
+        if 253 > true {
+            l0 = 150;
+            } else {
+        l2 = 185;
+        l1 = (0);
+        l1 = 92;
+        }
+        
+        if false {
+            print 204;
+            l3 = not 107;
+            }
+        
+        if 75 + 181 {
+            if 113 / 112 {
+                l3 = true - 245;
+                l3 = -141;
+                }
+            
+            l3 = 170;
+            } else {
+        l1 = 78 - 91;
+        l0 = l1 or 204;
+        }
+        
+        
+        }
+    }

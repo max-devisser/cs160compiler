@@ -1,0 +1,52 @@
+# AST Definition file for language
+#
+# Format: ParentNode => Child Child ... Child
+#
+# Single Quote after arrow means that the node should indent and linebreak its children
+# Asterisk means zero or more of that child (a std::list)
+# Question mark means optional child (may be NULL)
+# Other children may not be NULL or a std::list
+#
+# genast.py reads and processes this file
+#
+
+Program =>' *Class
+Class =>' Identifier ?Identifier *Declaration *Method
+
+Method =>' Identifier *Parameter Type MethodBody
+MethodBody =>' *Declaration *Statement ?ReturnStatement
+Parameter => Type Identifier
+
+Declaration => Type *Identifier
+
+ReturnStatement => Expression
+
+Statement:Assignment => Identifier ?Identifier Expression
+Statement:Call => MethodCall
+Statement:IfElse =>' Expression *Statement *Statement
+Statement:While =>' Expression *Statement
+Statement:DoWhile =>' *Statement Expression
+Statement:Print => Expression
+
+Expression:Plus => Expression Expression
+Expression:Minus => Expression Expression
+Expression:Times => Expression Expression
+Expression:Divide => Expression Expression
+Expression:Greater => Expression Expression
+Expression:GreaterEqual => Expression Expression
+Expression:Equal => Expression Expression
+Expression:And => Expression Expression
+Expression:Or => Expression Expression
+Expression:Not => Expression
+Expression:Negation => Expression
+Expression:MethodCall => Identifier ?Identifier *Expression
+Expression:MemberAccess => Identifier Identifier
+Expression:Variable => Identifier
+Expression:IntegerLiteral => Integer
+Expression:BooleanLiteral => Integer
+Expression:New => Identifier *Expression
+
+Type:IntegerType =>
+Type:BooleanType =>
+Type:ObjectType => Identifier
+Type:None =>

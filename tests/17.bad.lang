@@ -1,0 +1,74 @@
+c0 {
+    boolean m0;
+    boolean m1;
+    boolean m2;
+    integer m3;
+    f0(boolean a0) -> integer {
+        integer l0, l1;
+        if 145 {
+            l0 = not true;
+            } else {
+        l0 = true;
+        l0 = not true;
+        }
+        
+        return true;
+        }
+    }
+c1 {
+    c0 m0;
+    integer;
+    boolean m2;
+    c0 m3;
+    c0 m4;
+    f0(c0 a0) -> c0 {
+        c0 l0;
+        l0.m2 = false;
+        print false;
+        return new c0;
+        }
+    f1(c0 a0) -> integer {
+        c0 l0, l1, l2, l3, l4, l5;
+        c0 l6, l7, l8, l9;
+        c0 l10, l11, l12, l13, l14, l15, l16, l17;
+        c0 l18, l19;
+        l2.m1 = false >= true;
+        l12.m3 = 35;
+        l18.m1 = false;
+        return false;
+        }
+    }
+c2 extends c1 {
+    c1 m0;
+    c0 m1;
+    integer m2;
+    f0() -> c0 {
+        print 200;
+        if not 158 {
+            print 183;
+            while new c0 ( 251, (true) )  {
+                print true;
+                print 89;
+                }
+            
+            print 82 + 233 - true;
+            print false;
+            }
+        
+        return false equals true;
+        }
+    f1() -> integer {
+        c1 l0, l1, l2, l3;
+        boolean l4;
+        boolean l5;
+        boolean l6, l7, l8, l9, l10, l11, l12, l13, l14;
+        c0 l15, l16, l17, l18, l19, l20, l21, l22;
+        c1 l23, l24, l25, l26, l27, l28;
+        c1 l29, l30, l31;
+        c1 l32, l33;
+        boolean l34, l35;
+        l8 = new c0 ( new c1, 142 ) 
+        l2.m1 = true;
+        return (l11);
+        }
+    }

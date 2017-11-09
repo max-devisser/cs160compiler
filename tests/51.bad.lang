@@ -1,0 +1,17 @@
+c0 {
+    integer m0;
+    boolean m1;
+    integer m2;
+	f1() -> boolean {
+		return true;
+		}
+		
+    f0(integer a0, integer a1, boolean a2, boolean a3) -> boolean {
+        boolean l0, l1, l2;
+        return false;
+
+        do {
+          l0 = l1 + 3;
+        } while (true)
+        }
+    }

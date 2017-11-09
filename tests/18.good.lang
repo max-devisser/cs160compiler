@@ -1,0 +1,33 @@
+c0 {
+    boolean m0;
+    integer m1;
+    integer m2;
+    f0(integer a0) -> integer {
+        print 51 - 210;
+        print not 211;
+        return 194;
+        }
+    }
+c1 {
+    f0(boolean a0) -> c0 {
+        while new c0 ( 13, new c0, 205, not true )  * 53 {
+            print 237;
+            print new c0 ( true );
+            print 111 + 34 and new c0 ( false );
+            }
+        
+        while new c0 ( 13, true, 122 )  {
+            if 252 {
+                print true > 89;
+                print (200);
+                print true equals new c0 - new c0;
+                } else {
+            print new c0 ( 91 );
+            print new c0 ( new c0 > new c0 ( true / true )  )  * new c0 ( 170, new c0 );
+            }
+            
+            }
+        
+        return (true);
+        }
+    }

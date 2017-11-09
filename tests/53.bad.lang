@@ -1,0 +1,10 @@
+c0 {
+    boolean m0;
+    boolean a;
+    f0(integer a0, integer a1) -> integer {
+        return 213;
+        do {
+          print 9;
+        } while (true);
+        }
+    }

@@ -1,0 +1,124 @@
+c0 {
+    f0(integer a0, integer a1) -> none {
+        integer l0, l1;
+        integer l2, l3;
+        boolean l4, l5, l6, l7;
+        integer l8, l9;
+        integer l10, l11, l12, l13, l14;
+        integer l15, l16, l17, l18, l19, l20, l21;
+        boolean l22, l23;
+        boolean l24, l25, l26, l27, l28, l29, l30, l31, l32, l33;
+        boolean l34, l35, l36, l37, l38, l39, l40, l41, l42, l43, l44, l45, l46, l47, l48, l49, l50, l51, l52, l53, l54;
+        boolean l55, l56, l57, l58, l59;
+        integer l60, l61;
+        boolean l62, l63, l64, l65, l66;
+        boolean l67;
+        l0 = false >= l47;
+        l6 = 46;
+	/* # bla -- @ !-! bla -!- ^ bla ! **/        
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    f0(c0 a0, c0 a1, c0 a2) -> c0 {
+        if new c0 {
+            print true - 127;
+            print 188 equals false;
+            print 25;
+            } else {
+        if new c0 {
+            while 0 {
+                while 103 {
+                    print 133;
+                    print new c0 > 148;
+                    print 204;
+                    }
+                
+                if false {
+                    print 193;
+                    while false and new c0 * new c0 ( new c0 ( 90 and 141 )  )  {
+                        print 194 >= 214;
+                        print not new c0;
+                        print 179;
+                        }
+                    
+                    print new c0 ( not 157, new c0 ( (new c0 - false), not false )  );
+                    }
+                
+                }
+            
+            print 27;
+            }
+        
+        while false * false {
+            print false;
+            if new c0 {
+                print 221;
+                } else {
+            print new c0 ( 22 + 240, new c0, false )  >= new c0 ( 188 );
+            }
+            
+            }
+        
+        print new c0;
+        }
+        
+        return 63;
+        }
+    f1(integer a0, c0 a1) -> integer {
+        c0 l0, l1;
+        integer l2;
+        boolean l3;
+        integer l4, l5;
+        if true {
+            print new c0;
+            while 2 {
+                if l3 {
+                    l4 = new c0;
+                    print 226;
+                    while true {
+                        l2 = new c0;
+                        l4 = false;
+                        print true equals new c0;
+                        if 115 {
+                            while new c0 and l3 {
+                                while 54 or new c0 {
+                                    l4 = (new c0 ( new c0 ) );
+                                    l4 = new c0 ( new c0 and 199 );
+                                    l2 = not 193;
+                                    }
+                                
+                                while 39 {
+                                    l4 = false;
+                                    }
+                                
+                                print 214;
+                                }
+                            
+                            print (192);
+                            } else {
+                        l3 = 108;
+                        if true {
+                            l5 = l5;
+                            l2 = new c0;
+                            }
+                        
+                        l5 = l5;
+                        }
+                        
+                        }
+                    
+                    } else {
+                l4 = 190;
+                l3 = 102;
+                }
+                
+                l5 = new c0 ( 124 );
+                }
+            
+            l4 = 170 > new c0;
+            }
+        
+        return l3;
+        }
+    }

@@ -1,0 +1,43 @@
+c0 {
+    f0(boolean a0, integer a1, boolean a2) -> integer {
+        integer l0, l1, l2, l3, l4;
+        boolean l5;
+        integer l6, l7, l8, l9;
+        while true {
+            if 19 equals 204 {
+                l4 = 76;
+                }
+            
+            l8 = 161;
+            }
+        
+        return true > l6;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    f0(c0 a0, c0 a1, boolean a2, c0 a3) -> c0 {
+        print not 66;
+        print 13;
+        return new c0 ( false or 22 );
+        }
+    f1(/* # bla -- @ !-! bla -!- ^ bla ! **/) -> none {
+        
+        }
+    }
+/* # bla -- @ !-! bla -!- ^ bla ! **/c2/* # bla -- @ !-! bla -!- ^ bla ! **/ /* # bla -- @ !-! bla -!- ^ bla ! **/extends /* # bla -- @ !-! bla -!- ^ bla ! **/ /* # bla -- @ !-! bla -!- ^ bla ! **/c0/* # bla -- @ !-! bla -!- ^ bla ! **/ /* # bla -- @ !-! bla -!- ^ bla ! **/{/* # bla -- @ !-! bla -!- ^ bla ! **/
+    /* # bla -- @ !-! bla -!- ^ bla ! **/c0 m0/* # bla -- @ !-! bla -!- ^ bla ! **/;
+    c1 m1;
+    integer m2;
+    f0() -> c0 {
+        c1 l0, l1;
+        l0.m0 = new c0;
+        while l1.m1 {
+            print not true;
+            l0.m1 = true * true;
+            }
+        
+        return 196;
+        }
+    }

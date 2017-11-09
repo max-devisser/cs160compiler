@@ -1,0 +1,22 @@
+c0 {
+    boolean m0;
+    integer m1;
+    boolean m2;
+    integer m3;
+    integer m4;
+    boolean m5;
+    integer m6;
+    inte.ger m7;
+    boolean m8;
+    integer m9;
+    f0(integer a0) -> integer {
+        integer l0, l1, l2;
+        return 112 and 211;
+        }
+    f1() -> integer {
+        print 58;
+        print false;
+        print false equals true;
+        return 165 * 142 * 157;
+        }
+    }

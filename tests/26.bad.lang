@@ -1,0 +1,6 @@
+c0 {
+    f0(boolean a0) -> none {
+        return 5
+        print 236
+        }
+    }

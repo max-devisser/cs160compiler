@@ -1,0 +1,22 @@
+c0 {
+    f0() -> integer {
+        integer l0, l1, l2;
+        integer l3, l4;
+        print = 183;
+        return l4;
+        }
+    f1() -> boolean {
+        if -true {
+            print 183;
+            print 14;
+            } else {
+        print true;
+        print true >= 59;
+        print 253;
+        }
+        do {
+            x = 5;
+        } while 4;
+        return false;
+        }
+    }

@@ -1,0 +1,21 @@
+c0 {
+    f0(integer a0, boolean a1, integer a2) -> integer {
+        boolean l0;
+        boolean l1, l2;
+        boolean l3, l4, l5;
+        l5 = 148;
+        return 131;
+        }
+    }
+c1 extends c0 {
+    boolean m0;
+    f0(c0 a0, c0 a1, integer a2, c0 a3) -> boolean {
+        integer l0, l1, l2, l3;
+        while new c0 ( not new c0 ( true > l3 / false ) , new c0 ( -true, true > true, new c0 - new c0 ( l0 )  )  or false, (35), (172) )  {
+            l3 = (new c0 ( 86, true > false, l0 or false, new c0 ( true / new c0, true ) , new c0 ( true )  > 180 )  or new c0);
+            }
+        
+        l2 = l3;
+        return new c0 ( new c0, l2 )  or false / false;
+        }
+    }

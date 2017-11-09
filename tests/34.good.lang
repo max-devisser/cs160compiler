@@ -1,0 +1,106 @@
+c0 {
+    boolean m0;
+    integer m1;
+    boolean m2;
+    integer m3;
+    boolean m4;
+    f0(integer a0) -> boolean {
+        print false > 182;
+        while 51 {
+            if 16 / true {
+                print 232;
+                if 95 {
+                    print false;
+                    print 34;
+                    } else {
+                print true;
+                while 154 {
+                    print 168 * 136;
+                    print false;
+                    }
+                
+                print 63;
+                }
+                
+                print 173;
+                }
+            
+            print 97;
+            if 210 {
+                print false;
+                while 58 {
+                    print 245;
+                    if 249 {
+                        if 166 {
+                            print 241;
+                            while 69 and true {
+                                print 1;
+                                print 218;
+                                }
+                            
+                            }
+                        
+                        while 43 + 17 {
+                            print 151;
+                            print 132;
+                            print false;
+                            }
+                        
+                        if true / 19 {
+                            print true;
+                            print 133;
+                            }
+                        
+                        } else {
+                    print false;
+                    }
+                    
+                    print 53;
+                    print 66;
+                    }
+                
+                print false;
+                }
+            
+            if false > false {
+                print 208;
+                print 47 - 125 or 194;
+                }
+            
+            while 50 - 169 {
+                while 43 {
+                    print 84;
+                    if true {
+                        print 171;
+                        } else {
+                    print true;
+                    print 70;
+                    }
+                    
+                    if true {
+                        print 18;
+                        print 131 + 181;
+                        print 176;
+                        }
+                    
+                    }
+                
+                print 117;
+                while 155 {
+                    print 142;
+                    print 129;
+                    print (194);
+                    print 58;
+                    print 78 + 199;
+                    }
+                
+                }
+            
+            print false;
+            print 69 or 119;
+            }
+        
+        print (228);
+        return true;
+        }
+    }

@@ -1,0 +1,64 @@
+c0 {
+    integer m0;
+    boolean m1;
+    f0() -> boolean {
+        integer l0, l1;
+        integer l2, l3;
+        integer l4;
+        integer l5, l6, l7, l8, l9, l10, l11, l12, l13, l14, l15, l16;
+        l9 = true;
+        return l2;
+        }
+    }
+c1 {
+    c0 m0;
+    c0 m1;
+    integer m2;
+    integer m3;
+    c0 m4;
+    integer m5;
+    f0(integer a0) -> boolean {
+        boolean l0;
+        c0 l1, l2, l3, l4, l5, l6;
+        c0 l7, l8, l9;
+        l0 = false;
+        return 165 or new c0 ( 245 )  > l2.m0;
+        }
+    f1(boolean a0) -> none {
+        print new c0 ( true );
+        print 235 / 106;
+        
+        }
+    }
+c2 extends c1 {
+    f0(boolean a0) -> boolean {
+        c0 l0, l1;
+        l0.m1 = not l0.m1;
+        while new c0 ( false > l0.m1, 249 >= false, true and l0.m1, l1.m0 )  {
+            l0.m1 = new c0 > 70;
+            l1.m0 = new c0 ( 222 );
+            while true {
+                if new c1 ( new c1 ( new c0 ( 113, 203, 170 ) , true or 192, 215 )  )  > new c0 ( 102, new c0 )  {
+                    l0.m0 = new c0;
+                    l0.m1 = new c0;
+                    }
+                
+                l0.m1 = 131 / new c0 ( 126 );
+                }
+            
+            }
+        
+        return not false;
+        }
+    }
+c3 {
+    c2 m0;
+    integer m1;
+    c0 m2;
+    c2 m3;
+    f0(boolean a0) -> c2 {
+        print 124;
+        print -new c0;
+        return true;
+        }
+    }

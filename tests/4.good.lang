@@ -1,0 +1,19 @@
+c0 {
+    integer m0;
+    integer m1;
+    boolean m2;
+    boolean m3;
+    integer m4;
+    boolean m5;
+    boolean m6;
+    boolean m7;
+    integer m8;
+    f0(boolean a0, boolean a1, integer a2) -> boolean {
+        integer l0, l1, l2, l3, l4;
+        integer l5, l6;
+        print true;
+        l6 = 7 - 231;
+        return not 134;
+        }
+    } c1 extends c0 {}
+    

@@ -1,0 +1,23 @@
+c0 {
+    f0() -> none {
+        integer l0, l1, l2;
+        boolean l3;
+        integer l4;
+        integer l5, l6, l7, l8;
+        boolean l9, l10, l11, l12, l13, l14, l15;
+        integer l16, l17;
+        l3 = 138;
+        l12 = 137;
+        if l4:;
+            while 202 {
+                l5 = false;
+                l0 = -74;
+                print 236 equals 18;
+                }
+            
+            l4 = false;
+            }
+        
+        
+        }
+    }

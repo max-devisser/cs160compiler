@@ -1,0 +1,51 @@
+c0 {
+    boolean m0;
+    integer m1;
+    f0(integer a0, %integer a1, boolean a2, boolean a3) -> none {
+        while 195 {
+            print 114;
+            while true {
+                if 46 {
+                    print 136;
+                    print 251 + true;
+                    print 180 + 195;
+                    }
+                
+                if 83 {
+                    print -156;
+                    print 130;
+                    }
+                
+                }
+            
+            if 52 / 213 {
+                while 141 {
+                    print 12;
+                    print 123;
+                    }
+                
+                print 53 + 119;
+                }
+            
+            print true;
+            }
+        
+        if 3 {
+            while 249 {
+                print 146;
+                }
+            
+            print true;
+            }
+        
+        
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    boolean m2;
+    c0 m3;
+    c0 m4;
+    }
+;

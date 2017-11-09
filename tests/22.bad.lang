@@ -1,0 +1,19 @@
+c0 {
+    boolean m0
+    f0() -> boolean {
+        print 138
+        print 190
+        print 98
+        return 227
+        }
+    f1() -> integer {
+        integer l0
+		l0 = 5
+        boolean l1
+        boolean l2, l3
+        integer l4
+        l4 = 6
+        l1 = 147
+        return -134
+        }
+    }

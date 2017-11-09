@@ -1,0 +1,47 @@
+c0 {
+    boolean m0;
+    f0() -> boolean {
+        boolean l0, l1, l2, l3, l4, l5, l6, l7;
+        boolean l8, l9, l10, l11;
+        return true and 162;
+        }
+    f1(boolean a0) -> integer {
+        integer l0;
+        integer l1, l2, l3, l4, l5, l6;
+        integer l7;
+        boolean l8, l9, l10, l11, l12;
+        boolean l13;
+        integer l14;
+        integer l15;
+        l9 = false;
+        while l13 > true {
+            if 78 {
+                l10 = 247 and 11;
+                if true equals 54 {
+                    l14 = 17;
+                    l4 = false;
+                    print true;
+                    }
+                
+                l7 = l1;
+                l2 = true or false + l6;
+                l7 = (122) + true;
+                }
+            
+            }
+        
+        l9 = 112;
+        l11 = 254;
+        return 226 / l8;
+        }
+    f2() -> none {
+        boolean l0, l1, l2;
+        boolean l3, l4, l5, l6, l7, l8, l9;
+        boolean l10;
+        boolean l11;
+        l11 = -231;
+        l9 = 110 * false;
+        l10 = 238 * false;
+        
+        }
+    }

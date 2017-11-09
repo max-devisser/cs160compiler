@@ -1,0 +1,13 @@
+c0 {
+    integer m0;
+    f0(boolean a0) -> boolean {
+        while 209 {
+            print true;
+            print false;
+            }
+        
+        return false;
+        }
+    }
+!;
+

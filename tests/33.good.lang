@@ -1,0 +1,21 @@
+c0 {
+    boolean m0;
+    boolean m1;
+    boolean m2;
+    integer m3;
+    integer m4;
+    integer m5;
+    f0() -> integer {
+        integer l0;
+        print 50 >= 171;
+        while false - 237 {
+            l0 = true;
+            l0 = /* # bla -- @ !-! bla -!- ^ bla ! **/96;
+            }
+        
+        return /* # bla -- @ !-! bla -!- ^ bla ! **/ -246;
+        }
+    f1(integer a0, integer a1, boolean a2) -> integer {
+        return 183;
+        }
+    }

@@ -1,0 +1,39 @@
+c0 {
+    f0() -> integer {
+        integer l0;
+        integer l1;
+        integer l2, l3;
+        l0 = l0;
+        print /* # bla -- @ !-! bla -!- ^ bla ! **/ true;
+        l0 = l0 equals 157;
+        if 0 - 157 {
+            l1 = 28;
+            l3 = 166;
+            }
+        
+        return 120;
+        }
+    f1() -> integer {
+        boolean l0, l1, l2, l3, l4;
+        l1 = 197;
+        return 29;
+        }
+    }
+c1 extends c0 {
+    c0 m0;
+    c0 m1;
+    f0(c0 a0, integer a1) -> integer {
+        c0 l0;
+        return true;
+        }
+    }
+c2 {
+    c0 m0;
+    boolean m1;
+    c0 m2;
+    integer m3;
+    f0(c1 a0, boolean a1, c0 a2, c0 a3) -> c1 {
+        print (184);
+        return 229;
+        }
+    }

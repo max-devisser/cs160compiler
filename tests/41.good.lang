@@ -1,0 +1,23 @@
+c0 {
+    integer m0/* # bla -- @ !-! bla -!- ^ bla ! **/;
+    integer m1/* # bla -- @ !-! bla -!- ^ bla ! **/;
+    f0() -> boolean {/* # bla -- @ !-! bla -!- ^ bla ! **/
+        integer l0, l1,/* # bla -- @ !-! bla -!- ^ bla ! **/ l2, l3;
+        boolean l4, l5;
+        integer l6, l7, l8, l9, l10;
+        boolean l11, l12, l13;
+        l6 = -l3;
+        return true;
+        }
+    f1(boolean a0) -> boolean {
+        boolean l0, l1, l2, l3;
+        boolean l4, l5, l6, l7, l8;
+        boolean l9, l10, l11, l12, l13, l14, l15;
+        integer l16, l17, l18, l19, l20, l21, l22;
+        l10 = l14 >= false;
+        return 58;
+        }
+    f2(boolean a0) -> none {
+        
+        }
+    }
