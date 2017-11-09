@@ -34,8 +34,8 @@
 
 /* WRITEME: Specify types for all nonterminals and necessary terminals here */
 
-%type <base_int> T_INTEGER
-%type <base_char_ptr> T_ID
+%type <expression_ptr> Expression
+%type <base_int> T_NUMBER
 
 %%
 
@@ -143,7 +143,7 @@ Expression : Expression T_PLUS Expression
 	| T_ID T_DOT T_ID
 	| MethodCall
 	| T_LPAREN Expression T_RPAREN
-	| T_NUMBER									{ $$.expression_ptr = new IntegerLiteralNode(new IntegerNode($1.base_int)); }
+	| T_NUMBER									{ $$ = new IntegerLiteralNode(new IntegerNode($1)); astRoot = $$; }
 	| T_TRUE
 	| T_FALSE
 	| T_NEW T_ID
