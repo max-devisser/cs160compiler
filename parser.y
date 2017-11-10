@@ -34,7 +34,12 @@
 
 /* WRITEME: Specify types for all nonterminals and necessary terminals here */
 
+%type <print_ptr> Print
+%type <returnstatement_ptr> Return
 %type <expression_ptr> Expression
+%type <methodcall_ptr> MethodCall
+%type <expression_list_ptr> Arguments Arguments2
+%type <identifier_ptr> T_ID
 %type <base_int> T_NUMBER
 
 %%
@@ -122,44 +127,73 @@ Block : Statement Statements
 	;
 
 Print : T_PRINT Expression T_SEMICOLON
+		{ $$ = new PrintNode($2); astRoot = $$; }
 	;
 
 Return : T_RETURN Expression T_SEMICOLON
+		{ $$ = new ReturnStatementNode($2); }
 	| %empty
+		{ $$ = NULL; }
 	;
 
 Expression : Expression T_PLUS Expression
+		{ $$ = new PlusNode($1, $3); }
 	| Expression T_MINUS Expression
+		{ $$ = new MinusNode($1, $3); }
 	| Expression T_TIMES Expression
+		{ $$ = new TimesNode($1, $3); }
 	| Expression T_DIVIDE Expression
+		{ $$ = new DivideNode($1, $3); }
 	| Expression T_GTHAN Expression
+		{ $$ = new GreaterNode($1, $3); }
 	| Expression T_GTHANE Expression
+		{ $$ = new GreaterEqualNode($1, $3); }
 	| Expression T_EQUALS Expression
+		{ $$ = new EqualNode($1, $3); }
 	| Expression T_AND Expression
+		{ $$ = new AndNode($1, $3); }
 	| Expression T_OR Expression
+		{ $$ = new OrNode($1, $3); }
 	| T_NOT Expression
+		{ $$ = new NotNode($2); }
 	| T_MINUS Expression %prec T_NOT
-	| T_ID  									
+		{ $$ = new NegationNode($2); }
+	| T_ID
+		{ $$ = new VariableNode($1); }
 	| T_ID T_DOT T_ID
+		{ $$ = new MemberAccessNode($1, $3); }
 	| MethodCall
+		{ $$ = $1; }
 	| T_LPAREN Expression T_RPAREN
-	| T_NUMBER									{ $$ = new IntegerLiteralNode(new IntegerNode($1)); astRoot = $$; }
+		{ $$ = $2; }
+	| T_NUMBER
+		{ $$ = new IntegerLiteralNode(new IntegerNode($1)); }
 	| T_TRUE
+		{ $$ = new BooleanLiteralNode(new IntegerNode(1)); }
 	| T_FALSE
+		{ $$ = new BooleanLiteralNode(new IntegerNode(0)); }
 	| T_NEW T_ID
+		{ $$ = new NewNode($2, NULL); }
 	| T_NEW T_ID T_LPAREN Arguments T_RPAREN
+		{ $$ = new NewNode($2, $4); }
 	;
 
 MethodCall : T_ID T_LPAREN Arguments T_RPAREN
+		{ $$ = new MethodCallNode($1, NULL, $3); }
 	| T_ID T_DOT T_ID T_LPAREN Arguments T_RPAREN
+		{ $$ = new MethodCallNode($1, $3, $5); }
 	;
 
 Arguments : Arguments2
+		{ $$ = $1; }
 	| %empty
+		{ $$ = NULL; }
 	;
 
 Arguments2 : Arguments2 T_COMMA Expression
+		{ $$ = $1; $$->push_back($3); }
 	| Expression
+		{ $$ = new std::list<ExpressionNode*>(); $$->push_back($1); }
 	;
 
 Type : T_INTEGER
