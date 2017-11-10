@@ -34,10 +34,14 @@
 
 /* WRITEME: Specify types for all nonterminals and necessary terminals here */
 
+%type <statement_list_ptr> Statements Block
+%type <statement_ptr> Statement
+%type <assignment_ptr> Assignment
+%type <call_ptr> MethodCallStatement
 %type <print_ptr> Print
 %type <returnstatement_ptr> Return
 %type <expression_ptr> Expression
-%type <methodcall_ptr> MethodCall
+%type <methodcall_ptr> MethodCall 
 %type <expression_list_ptr> Arguments Arguments2
 %type <identifier_ptr> T_ID
 %type <base_int> T_NUMBER
@@ -88,12 +92,21 @@ VarName : T_ID T_COMMA VarName
 	| T_ID
 	;
 
+/* TEST THIS */
 Statements : Statement Statements
+		{
+		if ($2 != NULL) { $$ = $2; }
+		else { $$ = new std::list<StatementNode*>(); }
+		$$->push_front($1);
+		}
 	| %empty
+		{ $$ = NULL; }
 	;
 
 Statement : Assignment
+		{ $$ = $1; }
 	| MethodCallStatement
+		{ $$ = $1; astRoot = $$; }
 	| IfElse
 	| While
 	| DoWhile
@@ -101,10 +114,13 @@ Statement : Assignment
 	;
 
 Assignment : T_ID T_ASSEQUALS Expression T_SEMICOLON
+		{ $$ = new AssignmentNode($1, NULL, $3); }
 	| T_ID T_DOT T_ID T_ASSEQUALS Expression T_SEMICOLON
+		{ $$ = new AssignmentNode($1, $3, $5); }
 	;
 
 MethodCallStatement : MethodCall T_SEMICOLON
+		{ $$ = new CallNode($1); }
 	;
 
 IfElse : If
@@ -123,11 +139,17 @@ While : T_WHILE Expression T_LBRACKET Block T_RBRACKET
 DoWhile : T_DO T_LBRACKET Block T_RBRACKET T_WHILE T_LPAREN Expression T_RPAREN T_SEMICOLON
 	;
 
+/* TEST THIS */
 Block : Statement Statements
+		{
+		if ($2 != NULL) { $$ = $2; }
+		else { $$ = new std::list<StatementNode*>(); }
+		$$->push_front($1);
+		}
 	;
 
 Print : T_PRINT Expression T_SEMICOLON
-		{ $$ = new PrintNode($2); astRoot = $$; }
+		{ $$ = new PrintNode($2); }
 	;
 
 Return : T_RETURN Expression T_SEMICOLON
