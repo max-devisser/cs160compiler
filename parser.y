@@ -45,6 +45,11 @@
 %type <expression_list_ptr> Arguments Arguments2
 %type <identifier_ptr> T_ID
 %type <base_int> T_NUMBER
+%type <integertype_ptr> T_INTEGER
+%type <booleantype_ptr> T_BOOLEAN
+%type <objecttype_ptr> T_INTEGER
+%type <none_ptr> T_NONE
+
 
 %%
 
@@ -218,15 +223,23 @@ Arguments2 : Arguments2 T_COMMA Expression
 		{ $$ = new std::list<ExpressionNode*>(); $$->push_back($1); }
 	;
 
+/* TEST THIS */
 Type : T_INTEGER
+	{ $$ = new IntegerTypeNode()) }
 	| T_BOOLEAN
+	{ $$ = new BooleanTypeNode()) }
 	| T_ID
+	{ $$ = new ObjectTypeNode()) }
 	;
-
+/* TEST THIS */
 ReturnType : T_INTEGER
+	{ $$ = new IntegerTypeNode()) } 
 	| T_BOOLEAN
+	{ $$ = new BooleanTypeNode()) }
 	| T_ID
+	{ $$ = new ObjectTypeNode()) }
 	| T_NONE
+	{ $$ = new NoneNode()) }
 	;
 
 %%
