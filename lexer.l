@@ -68,7 +68,7 @@ do					{ return T_DO; }
 ">"					{ return T_GTHAN; }
 ">="				{ return T_GTHANE; }
 "="					{ return T_ASSEQUALS; }
-{id}				{ yylval.identifier_ptr = new IdentifierNode(yytext); return T_ID; }
+{id}				{ yylval.identifier_ptr = new IdentifierNode(strdup(yytext)); return T_ID; }
 {number}			{ yylval.base_int = atoi(yytext); return T_NUMBER; }
 
 [ \t\n]				{ } /* skip whitespace */

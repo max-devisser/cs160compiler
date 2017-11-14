@@ -6,6 +6,7 @@
     #include "ast.hpp"
 
     #define YYDEBUG 1
+    #define YYINITDEPTH 10000
     int yylex(void);
     void yyerror(const char *);
 
@@ -34,10 +35,21 @@
 
 /* WRITEME: Specify types for all nonterminals and necessary terminals here */
 
-%type <statement_list_ptr> Statements Block
+%type <program_ptr> Program
+%type <class_ptr> Class ClassBody
+%type <method_list_ptr> Methods
+%type <parameter_list_ptr> Parameters Parameters2
+%type <methodbody_ptr> Body
+%type <declaration_list_ptr> Declarations Members
+%type <declaration_ptr> Declaration
+%type <identifier_list_ptr> VarName
+%type <statement_list_ptr> Statements Block Else
 %type <statement_ptr> Statement
 %type <assignment_ptr> Assignment
 %type <call_ptr> MethodCallStatement
+%type <ifelse_ptr> IfElse If
+%type <while_ptr> While
+%type <dowhile_ptr> DoWhile
 %type <print_ptr> Print
 %type <returnstatement_ptr> Return
 %type <expression_ptr> Expression
@@ -45,10 +57,7 @@
 %type <expression_list_ptr> Arguments Arguments2
 %type <identifier_ptr> T_ID
 %type <base_int> T_NUMBER
-%type <integertype_ptr> T_INTEGER
-%type <booleantype_ptr> T_BOOLEAN
-%type <objecttype_ptr> T_INTEGER
-%type <none_ptr> T_NONE
+%type <type_ptr> Type ReturnType
 
 
 %%
@@ -56,48 +65,75 @@
 /* WRITME: Write your Bison grammar specification here */
 
 Program : Class
+		{ 
+		$$ = new ProgramNode(new std::list<ClassNode*>());
+		$$->class_list->push_front($1);
+		astRoot = $$;
+		}
 	| Class Program
+		{ $$ = $2; $$->class_list->push_front($1); }
 	;
 	
 
 Class : T_ID T_LBRACKET ClassBody T_RBRACKET
+		{ $$ = $3; $$->identifier_1 = $1; $$->identifier_2 = NULL; }
 	| T_ID T_EXTENDS T_ID T_LBRACKET ClassBody T_RBRACKET
+		{ $$ = $5; $$->identifier_1 = $1; $$->identifier_2 = $3; }
 	;
 
 ClassBody : Members Methods
+		{ $$ = new ClassNode(NULL, NULL, $1, $2); }
 	;
 
 Members : Members Type T_ID T_SEMICOLON
+		{ 
+		$$ = $1; 
+		std::list<IdentifierNode*>* id = new std::list<IdentifierNode*>();
+		id->push_front($3);
+		$$->push_back(new DeclarationNode($2, id)); 
+		}
 	| %empty
+		{ $$ = new std::list<DeclarationNode*>(); }
 	;
 
 Methods : T_ID T_LPAREN Parameters T_RPAREN T_ARROW ReturnType T_LBRACKET Body T_RBRACKET Methods
+		{ $$ = $10; $$->push_front(new MethodNode($1, $3, $6, $8)); }
 	| %empty
+		{ $$ = new std::list<MethodNode*>(); }
 	;
 
 Parameters : Parameters2
+		{ $$ = $1; }
 	| %empty
+		{ $$ = NULL; }
 	;
 
 Parameters2 : Type T_ID
+		{ $$ = new std::list<ParameterNode*>(); $$->push_front(new ParameterNode($1, $2)); }
 	| Type T_ID T_COMMA Parameters2
+		{ $$ = $4; $$->push_front(new ParameterNode($1, $2)); }
 	;
 
 Body : Declarations Statements Return
+		{ $$ = new MethodBodyNode($1, $2, $3); astRoot = $$; }
 	;
 
 Declarations : Declarations Declaration
+		{ $$ = $1; $$->push_back($2); }
 	| %empty
+		{ $$ = new std::list<DeclarationNode*>(); }
 	;
 
 Declaration : Type VarName T_SEMICOLON
+		{ $$ = new DeclarationNode($1, $2); }
 	;
 
 VarName : T_ID T_COMMA VarName
+		{ $$ = $3; $$->push_front($1); }
 	| T_ID
+		{ $$ = new std::list<IdentifierNode*>(); $$->push_front($1); }
 	;
 
-/* TEST THIS */
 Statements : Statement Statements
 		{
 		if ($2 != NULL) { $$ = $2; }
@@ -111,11 +147,15 @@ Statements : Statement Statements
 Statement : Assignment
 		{ $$ = $1; }
 	| MethodCallStatement
-		{ $$ = $1; astRoot = $$; }
+		{ $$ = $1; }
 	| IfElse
+		{ $$ = $1; }
 	| While
+		{ $$ = $1; }
 	| DoWhile
+		{ $$ = $1; }
 	| Print
+		{ $$ = $1; }
 	;
 
 Assignment : T_ID T_ASSEQUALS Expression T_SEMICOLON
@@ -129,22 +169,27 @@ MethodCallStatement : MethodCall T_SEMICOLON
 	;
 
 IfElse : If
+		{ $$ = $1; }
 	| If Else
+		{ $$ = $1; $$->statement_list_2 = $2; }
 	;
 
 If : T_IF Expression T_LBRACKET Block T_RBRACKET
+		{ $$ = new IfElseNode($2, $4, NULL); }
 	;
 
 Else : T_ELSE T_LBRACKET Block T_RBRACKET
+		{ $$ = $3; }
 	;
 
 While : T_WHILE Expression T_LBRACKET Block T_RBRACKET
+		{ $$ = new WhileNode($2, $4); }
 	;
 
 DoWhile : T_DO T_LBRACKET Block T_RBRACKET T_WHILE T_LPAREN Expression T_RPAREN T_SEMICOLON
+		{ $$ = new DoWhileNode($3, $7); }
 	;
 
-/* TEST THIS */
 Block : Statement Statements
 		{
 		if ($2 != NULL) { $$ = $2; }
@@ -225,21 +270,17 @@ Arguments2 : Arguments2 T_COMMA Expression
 
 /* TEST THIS */
 Type : T_INTEGER
-	{ $$ = new IntegerTypeNode()) }
+		{ $$ = new IntegerTypeNode(); }
 	| T_BOOLEAN
-	{ $$ = new BooleanTypeNode()) }
+		{ $$ = new BooleanTypeNode(); }
 	| T_ID
-	{ $$ = new ObjectTypeNode()) }
+		{ $$ = new ObjectTypeNode($1); }
 	;
 /* TEST THIS */
-ReturnType : T_INTEGER
-	{ $$ = new IntegerTypeNode()) } 
-	| T_BOOLEAN
-	{ $$ = new BooleanTypeNode()) }
-	| T_ID
-	{ $$ = new ObjectTypeNode()) }
+ReturnType : Type
+		{ $$ = $1; }
 	| T_NONE
-	{ $$ = new NoneNode()) }
+		{ $$ = new NoneNode(); }
 	;
 
 %%
